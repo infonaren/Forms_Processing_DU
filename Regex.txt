@@ -1,0 +1,9 @@
+cost\s+of\s+damage.+?(\d+)
+
+driving\s+license\s+number:\s*(?<dlicense>.+?)\s*(brief|nature)
+
+vehicle\s+license\s+number:\s*(.+?)\s*drive
+
+report\s+prepared\s+by:\s*(.+?)\s*designation
+
+registration\s+number:\D*(\d{2})(-)(\d{7})
